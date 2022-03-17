@@ -1,7 +1,7 @@
 # this is list
 
 <div id="hi">
-  <input :model="name" />
+  <input v-model="name" />
   <div>{{name}}</div>
   <span @click="say">{{msg}}</span>
 </div>
